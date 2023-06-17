@@ -64,3 +64,18 @@ section.banner > button {
   background-color: var(--color-violet);
   color: #fff;
 }
+
+section.subbanner {
+  padding: 20px 20px;
+  background-color: var(--color-light-blue);
+  color: #fff;
+}
+section.subbanner > h2 {
+  padding: 20px 0 30px;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+section.subbanner > p {
+  padding-bottom: 20px;
+  font-size: 1rem;
+}
