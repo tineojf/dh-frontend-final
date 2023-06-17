@@ -173,6 +173,7 @@ footer {
   padding: 0 40px;
   background-color: var(--color-gray-blue);
   color: #fff;
+  text-align: center;
 }
 footer > p:first-child {
   display: none;
@@ -226,4 +227,22 @@ footer > div.list > ul > li {
   list-style-type: none;
   font-size: 1rem;
   font-weight: 400;
+  text-align: left;
+}
+
+footer > div.rrss {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+
+  margin: 50px 0;
+  padding: 0 20px;
+}
+footer > p:last-child {
+  padding: 50px 0;
+  color: #8c8c94;
+  font-size: 0.7813rem;
 }
