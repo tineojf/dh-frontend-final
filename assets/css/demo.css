@@ -1,0 +1,42 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  
+  
+  background-color: burlywood;
+}
+section > ol {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  list-style-type: none;
+
+  width: 100vw;
+  height: 100vh;
+}
+section > ol > li {
+  counter-increment: item;
+  width: 45%;
+  margin: 10px;
+}
+
+section > ol > li::before {
+  content: counter(item) ".";
+  background-color: blueviolet;
+  padding: 5px 15px;
+  border-radius: 15px;
+  color: white;
+}
+section > ol > li > p:nth-child(1) {
+  display: inline-block;
+}
+section > ol > li > p:nth-child(2) {
+  margin-left: 47px;
+} */
