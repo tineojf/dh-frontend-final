@@ -241,7 +241,7 @@ footer > div.rrss {
   margin: 50px 0;
   padding: 0 20px;
 }
-footer > p:last-child {
+footer > p {
   padding: 50px 0;
   color: #8c8c94;
   font-size: 0.7813rem;
@@ -336,6 +336,34 @@ footer > p:last-child {
   section.message > button {
     margin: 0;
     background-color: #fff;
-    color: var(--color-violet)
+    color: var(--color-violet);
   }
+
+  /* footer {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: stretch;
+  }
+  footer > p:last-child {
+    display: none;
+  }
+  footer > p:first-child {
+    display: flex;
+    width: 20%;
+  }
+  foooter > p {
+    width: 10%;
+  }
+  foooter > div.rrss {
+    width: 30%;
+  }
+  footer > div.list {
+    width: 60%;
+  }
+  footer > div.email {
+    width: 40%;
+  } */
 }
