@@ -1,25 +1,23 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 section {
-  
-  
   background-color: burlywood;
 }
 section > ol {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
-  list-style-type: none;
 
   width: 100vw;
   height: 100vh;
+  list-style-type: none;
 }
 section > ol > li {
   counter-increment: item;
@@ -37,6 +35,3 @@ section > ol > li::before {
 section > ol > li > p:nth-child(1) {
   display: inline-block;
 }
-section > ol > li > p:nth-child(2) {
-  margin-left: 47px;
-} */

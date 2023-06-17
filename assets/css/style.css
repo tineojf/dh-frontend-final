@@ -79,3 +79,42 @@ section.subbanner > p {
   padding-bottom: 20px;
   font-size: 1rem;
 }
+
+/* Puede cambiarse el ol + li por un div + span dentro de h3 */
+section.differents {
+  padding: 40px 0 40px 20px;
+}
+section.differents > ol {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  list-style-type: none;
+}
+section.differents > ol > li {
+  counter-increment: item;
+  margin: 15px 0;
+}
+section.differents > ol > li::before {
+  content: "0" counter(item);
+  background-color: var(--color-violet);
+  padding: 6px 20px;
+  border-radius: 15px;
+  color: #fff;
+  font-weight: bold;
+}
+section.differents > ol > li > h3 {
+  display: inline-block;
+  margin: 0 0 20px -20px;
+  padding: 7px 0 6px 50px;
+  width: 90%;
+  background-color: rgba(139, 72, 191, 0.3);
+  font-size: 0.9rem;
+}
+section.differents > ol > li > p {
+  color: #b3b2b7;
+  font-size: 1.0188rem;
+}
