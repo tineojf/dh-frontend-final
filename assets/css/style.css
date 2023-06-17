@@ -284,4 +284,29 @@ footer > p:last-child {
     background-color: var(--color-violet);
     color: #fff;
   }
+
+  /* provisional */
+  section.banner > img {
+    width: 540px;
+    height: 460px;
+  }
+
+  section.subbanner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+
+    padding: 20px 15vw;
+    background-color: var(--color-violet);
+  }
+  section.subbanner > h2 {
+    width: 50%;
+  }
+  section.subbanner > p {
+    width: 45%;
+    margin-left: 50px;
+  }
 }
