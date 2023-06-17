@@ -168,3 +168,62 @@ section.message > button {
   background-color: var(--color-dark-blue);
   color: #fff;
 }
+
+footer {
+  padding: 0 40px;
+  background-color: var(--color-gray-blue);
+  color: #fff;
+}
+footer > p:first-child {
+  display: none;
+}
+
+footer > div.email > form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+
+  padding: 50px 0;
+  height: 50px;
+  /* background-color: lightcoral; */
+}
+footer > div.email > form > input {
+  padding: 12px 18px;
+  width: 380px;
+
+  border: none;
+  border-radius: 20px;
+  font-size: 0.8125rem;
+  background-color: #fff;
+}
+footer > div.email > form > button {
+  padding: 12px 18px;
+  margin-left: 10px;
+
+  border: none;
+  border-radius: 20px;
+  font-size: 0.8125rem;
+  background-color: var(--color-violet);
+  color: #fff;
+}
+
+footer > div.list > ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+}
+footer > div.list > ul > li {
+  padding-left: 10px;
+  height: 40px;
+  width: 50%;
+
+  list-style-type: none;
+  font-size: 1rem;
+  font-weight: 400;
+}
