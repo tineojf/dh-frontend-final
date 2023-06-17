@@ -246,3 +246,42 @@ footer > p:last-child {
   color: #8c8c94;
   font-size: 0.7813rem;
 }
+
+@media screen and (min-width: 1440px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+  }
+  header > button > img {
+    display: none;
+  }
+  header > nav {
+    display: block;
+  }
+  header > nav > ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+
+    width: 30vw;
+    list-style: none;
+  }
+  header > button > a {
+    display: inline;
+    margin: 0 0 45px;
+    padding: 10px 40px;
+
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: var(--color-violet);
+    color: #fff;
+  }
+}
