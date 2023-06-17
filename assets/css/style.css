@@ -11,6 +11,9 @@
   box-sizing: border-box;
   font-family: "Be Vietnam Pro", sans-serif;
 }
+body {
+  padding: 0 40px;
+}
 
 header {
   display: flex;
@@ -22,7 +25,6 @@ header {
 
   height: 100px;
   width: 100%;
-  padding: 0 50px;
 }
 header > nav {
   display: none;
@@ -40,4 +42,26 @@ header > button {
 header > button > img {
   width: 30px;
   height: 25px;
+}
+
+section.banner {
+  text-align: right;
+}
+section.banner > img {
+  width: 100%;
+  height: 100%;
+}
+section.banner > h2 {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  font-size: 3rem;
+}
+section.banner > button {
+  margin: 15px 0;
+  padding: 10px 40px;
+
+  border: none;
+  border-radius: 20px;
+  background-color: var(--color-violet);
+  color: #fff;
 }
