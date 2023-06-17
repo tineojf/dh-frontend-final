@@ -184,10 +184,9 @@ footer > form {
   align-items: center;
   align-content: stretch;
 
-  padding: 50px 0;
   height: 120px;
 }
-footer> form > input {
+footer > form > input {
   padding: 12px 18px;
   width: 380px;
 
@@ -207,7 +206,7 @@ footer > form > button {
   color: #fff;
 }
 
-footer> ul {
+footer > ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -216,7 +215,7 @@ footer> ul {
   align-content: stretch;
   padding: 0 20px;
 }
-footer> ul > li {
+footer > ul > li {
   padding-left: 10px;
   height: 40px;
   width: 50%;
@@ -227,7 +226,7 @@ footer> ul > li {
   text-align: left;
 }
 
-footer >div>  div.rrss {
+footer > div > div.rrss {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -236,10 +235,9 @@ footer >div>  div.rrss {
   align-content: stretch;
 
   margin: 50px 0;
-  padding: 0 20px;
 }
 footer > p {
-  padding: 50px 0;
+  padding: 40px 0;
   color: #8c8c94;
   font-size: 0.7813rem;
 }
@@ -336,31 +334,27 @@ footer > p {
     color: var(--color-violet);
   }
 
-  /* footer {
+  footer {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap-reverse;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-end;
     align-content: stretch;
+    padding: 20px 0;
   }
-  footer > p:last-child {
-    display: none;
+  footer > div.rrss {
+    width: 40%;
   }
-  footer > p:first-child {
-    display: flex;
-    width: 20%;
+  footer > ul {
+    width: 40%;
   }
-  foooter > p {
-    width: 10%;
-  }
-  foooter > div.rrss {
+  footer > form {
     width: 30%;
   }
-  footer > div.list {
-    width: 60%;
+  footer > p {
+    order: -10;
+    width: 100%;
+    padding: 20px;
   }
-  footer > div.email {
-    width: 40%;
-  } */
 }
