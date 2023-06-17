@@ -145,4 +145,26 @@ section.bestmonth > article > h3 {
 section.bestmonth > article > p {
   color: rgb(179, 178, 183);
   font-size: 1.25rem;
+  font-weight: 500;
+}
+
+section.message {
+  background-color: var(--color-light-blue);
+  color: #fff;
+  text-align: center;
+}
+section.message > h2 {
+  padding: 45px 55px;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+section.message > button {
+  /* Reusar boton */
+  margin: 0 0 45px;
+  padding: 10px 40px;
+
+  border: none;
+  border-radius: 20px;
+  background-color: var(--color-dark-blue);
+  color: #fff;
 }
