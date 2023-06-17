@@ -11,3 +11,33 @@
   box-sizing: border-box;
   font-family: "Be Vietnam Pro", sans-serif;
 }
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+
+  height: 100px;
+  width: 100%;
+  padding: 0 50px;
+}
+header > nav {
+  display: none;
+}
+header > button > a {
+  display: none;
+}
+header > img {
+  height: 28px;
+}
+header > button {
+  border: none;
+  background-color: #fff;
+}
+header > button > img {
+  width: 30px;
+  height: 25px;
+}
