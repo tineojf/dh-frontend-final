@@ -187,8 +187,7 @@ footer > div.email > form {
   align-content: stretch;
 
   padding: 50px 0;
-  height: 50px;
-  /* background-color: lightcoral; */
+  height: 120px;
 }
 footer > div.email > form > input {
   padding: 12px 18px;
@@ -214,9 +213,10 @@ footer > div.list > ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   align-content: stretch;
+  padding: 0 20px;
 }
 footer > div.list > ul > li {
   padding-left: 10px;
