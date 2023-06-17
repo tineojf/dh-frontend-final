@@ -115,6 +115,34 @@ section.differents > ol > li > h3 {
   font-size: 0.9rem;
 }
 section.differents > ol > li > p {
-  color: #b3b2b7;
+  color: rgb(179, 178, 183);
   font-size: 1.0188rem;
+}
+
+section.bestmonth {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+
+  padding: 0 40px;
+  text-align: center;
+}
+section.bestmonth > h2 {
+  color: var(--color-gray-blue);
+  font-size: 2.5rem;
+}
+section.bestmonth > article > img {
+  margin-top: 60px;
+}
+section.bestmonth > article > h3 {
+  margin: 20px 0;
+  color: #3f4868;
+  font-size: 1rem;
+}
+section.bestmonth > article > p {
+  color: rgb(179, 178, 183);
+  font-size: 1.25rem;
 }
