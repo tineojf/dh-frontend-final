@@ -320,4 +320,22 @@ footer > p:last-child {
     margin-bottom: 100px; /*!eliminar*/
   }
   /*  Agregar boton  */
+
+  section.message {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+
+    padding: 0 15vw;
+    background-color: var(--color-violet);
+    text-align: left;
+  }
+  section.message > button {
+    margin: 0;
+    background-color: #fff;
+    color: var(--color-violet)
+  }
 }
