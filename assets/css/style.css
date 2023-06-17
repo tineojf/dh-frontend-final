@@ -309,4 +309,15 @@ footer > p:last-child {
     width: 45%;
     margin-left: 50px;
   }
+
+  /* Pendiente section.differents */
+  section.bestmonth > h2 {
+    width: 100%;
+  }
+
+  section.bestmonth > article {
+    width: 33%;
+    margin-bottom: 100px; /*!eliminar*/
+  }
+  /*  Agregar boton  */
 }
