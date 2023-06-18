@@ -338,23 +338,42 @@ footer > p {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap-reverse;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-end;
     align-content: stretch;
-    padding: 20px 0;
+    padding: 60px 15vw;
   }
-  footer > div.rrss {
-    width: 40%;
+  footer > div {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: stretch;
+    width: 20%;
   }
+  footer > div > div.rrss > img {
+    margin: 0 10px;
+  }
+
   footer > ul {
     width: 40%;
   }
+
   footer > form {
-    width: 30%;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: stretch;
   }
+
   footer > p {
     order: -10;
     width: 100%;
-    padding: 20px;
+    padding: 10px 20px;
+    text-align: right;
   }
 }
