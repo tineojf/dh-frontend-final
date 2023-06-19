@@ -152,6 +152,10 @@ section.bestmonth > article > p {
   font-size: 1.25rem;
   font-weight: 500;
 }
+section.bestmonth > a:hover {
+  background: rgba(139, 72, 191, 0.7);
+  cursor: url("../images/icons/cursor.svg"), auto;
+}
 
 section.message {
   background-color: var(--color-light-blue);
@@ -165,6 +169,7 @@ section.message > h2 {
 }
 section.message > a {
   margin: 40px 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
   background-color: var(--color-dark-blue);
 }
 
@@ -267,16 +272,13 @@ footer > p {
     width: 35vw;
     list-style: none;
   }
+  header > nav > ul > li:hover {
+    color: rgba(36, 46, 82, 0.6);
+    cursor: url("../images/icons/cursor.svg"), auto;
+  }
   header > button > a {
     display: inline;
-    margin: 0 0 45px;
-    padding: 10px 40px;
-
-    border: none;
-    border-radius: 20px;
-    text-decoration: none;
-    background-color: var(--color-violet);
-    color: #fff;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
   }
 
   section.banner {
@@ -286,7 +288,7 @@ footer > p {
     justify-content: center;
     align-items: center;
     align-content: stretch;
-    padding: 0 200px;
+    padding: 100px 200px;
   }
   section.banner > img {
     width: 50%;
@@ -315,7 +317,28 @@ footer > p {
     margin-left: 50px;
   }
 
-  /* Pendiente section.differents */
+  section.differents > ol {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+
+    padding: 0 150px;
+    margin-bottom: 50px;
+  }
+  section.differents > ol > li {
+    width: 50%;
+  }
+  section.differents > ol > li > h3 {
+    background-color: rgba(139, 72, 191, 0);
+  }
+  section.differents > ol > li > p {
+    padding-left: 95px;
+    padding-right: 50px;
+  }
+
   section.bestmonth > h2 {
     width: 100%;
   }
