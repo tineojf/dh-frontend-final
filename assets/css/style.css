@@ -72,6 +72,9 @@ section.subbanner {
   background-color: var(--color-light-blue);
   color: #fff;
 }
+section.subbanner > p:nth-child(3) {
+  display: none;
+}
 section.subbanner > h2 {
   padding: 20px 0 30px;
   font-size: 2.25rem;
@@ -261,7 +264,7 @@ footer > p {
     align-items: center;
     align-content: stretch;
 
-    width: 30vw;
+    width: 35vw;
     list-style: none;
   }
   header > button > a {
@@ -293,10 +296,14 @@ footer > p {
     padding: 20px 15vw;
     background-color: var(--color-violet);
   }
+  section.subbanner > p:nth-child(2) {
+    display: none;
+  }
   section.subbanner > h2 {
     width: 50%;
   }
-  section.subbanner > p {
+  section.subbanner > p:nth-child(3) {
+    display: block;
     width: 45%;
     margin-left: 50px;
   }
@@ -308,9 +315,10 @@ footer > p {
 
   section.bestmonth > article {
     width: 33%;
-    margin-bottom: 100px; /*!eliminar*/
   }
-  /*  Agregar boton  */
+  section.bestmonth > a {
+    margin: 100px 0 220px;
+  }
 
   section.message {
     display: flex;
@@ -324,8 +332,10 @@ footer > p {
     background-color: var(--color-violet);
     text-align: left;
   }
-  section.message > button {
-    margin: 0;
+  section.message > h2 {
+    padding-bottom: 45px;
+  }
+  section.message > a {
     background-color: #fff;
     color: var(--color-violet);
   }
